@@ -4,27 +4,27 @@ python-(re)installation on linux-debian:
 
 1.Check out, is there any python-interpreter and if this is the case, which version of it:
 
-`Code`sudo su - 
+`sudo su - `
 
-`Code`python -V
+`python -V`
 
 2.find out the path of the python bins, see is there any other version of it and set the link on the right one
 
-`Code`ls -ld $(which python)
+`ls -ld $(which python)`
 
-`Code`cd "PATH TO PYTHON-BINS, probably /usr/bin/"
+`cd "PATH TO PYTHON-BINS, probably /usr/bin/"`
 
-`Code`ls | sort | grep -i "pytho*"
+`ls | sort | grep -i "pytho*"`
 
 3.if there is not a python2.7-interpreter, make an installation
 
-`Code`apt-get install python2.7 -y
+`apt-get install python2.7 -y`
 
 or donwload the interpreter with "curl" into this directory and don't forget to set the x-rights
 
 4.set a link to the right version
 
-`Code`ln -s python python2.7
+`ln -s python python2.7`
 
 Small how-to-video: installation of the right python-version and a [small demo of the browser-termial-application](http://www.green-homepages.de/#brow_term) 
 
