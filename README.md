@@ -1,6 +1,5 @@
 Browser-Terminal-Application is a pretty simple browser with a terminal on the bottom. It is written in the programming-langauge python2, so it is necessary to have a python2-interperter, if it is possible python2.7.
 
-#Header1
 python-(re)installation on linux-debian:
 
 1.Check out, is there any python-interpreter and if this is the case, which version of it:
