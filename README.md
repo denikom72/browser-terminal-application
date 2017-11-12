@@ -26,7 +26,7 @@ or donwload the interpreter with "curl" into this directory and don't forget to 
 
 `ln -s python python2.7`
 
-Small how-to-video: installation of the right python-version and a [small demo of the browser-termial-application](http://www.green-homepages.de/#brow_term) 
+Small how-to-video: installation of the right python-version and a [small demo of the browser-terminal-application](http://www.green-homepages.de/#brow_term) 
 
 
 ## Welcome to GitHub Pages
