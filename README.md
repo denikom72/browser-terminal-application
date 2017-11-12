@@ -3,7 +3,9 @@ Browser-Terminal-Application is a pretty simple browser with a terminal on the b
 python-(re)installation on linux-debian:
 
 1.Check out, is there any python-interpreter and if this is the case, which version of it:
+
 sudo su - 
+
 python -V
 
 2find out the path of the python bins, see is there any other version of it and set the link on the right one
