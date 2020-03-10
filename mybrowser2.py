@@ -3,8 +3,8 @@ import sys
 import gtk
 import webkit
 import vte
-DEFAULT_URL = 'http://www.google.com' # Change this as you Wish
-class SimpleBrowser: # needs GTK, Python, Webkit-GTK
+DEFAULT_URL = 'http://www.google.com'
+class SimpleBrowser: 
 	def __init__(self):
 		self.window = gtk.Window()
 		self.window.set_position(gtk.WIN_POS_CENTER_ALWAYS)
@@ -88,6 +88,7 @@ if __name__ == '__main__':
 		url = sys.argv[1]
 	else:
         	url = DEFAULT_URL
+	
 	gtk.gdk.threads_init()
 	browser = SimpleBrowser()
 	#browser.open(url)
