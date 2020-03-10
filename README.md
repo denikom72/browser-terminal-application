@@ -1,13 +1,12 @@
-Simple browser with a terminal on the bottom. Python 2.7. You can use "virtualenv" to install the suitable python-version or 
-to install with apt- or rpm the suitable python version, here an example:
+Simple browser with a terminal on the bottom. Python 2.7. Use "virtualenv" to install the suitable python-version if possible. Otherwise use apt- or rpm:
 
-1.Check out, is there any python-interpreter and if this is the case, which version of it:
+1.Check python-interpreter-version:
 
 `sudo su - `
 
 `python -V`
 
-2.find out the path of the python bins, see is there any other version of it and set the link on the right one
+2.If necessary, set a new link to the right python-version
 
 `ls -ld $(which python)`
 
@@ -15,11 +14,11 @@ to install with apt- or rpm the suitable python version, here an example:
 
 `ls | sort | grep -i "pytho*"`
 
-3.if there isn't a python2.7-interpreter, make an installation
+3.if there isn't a python2.7-interpreter, run an installation
 
 `apt-get install python2.7 -y`
 
-or donwload the interpreter with "curl" into this directory and don't forget to set the x-rights
+or download the interpreter with "curl" into the "bin"-directory and set it as "executeable"
 
 4.set a link to the right version
 
